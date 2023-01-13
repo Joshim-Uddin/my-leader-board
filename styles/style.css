@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*---------------
+ common styles
+----------------- */
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+/* header styles */
+.header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 250px 17px 250px;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.logo img{
+    height: 51px;
+}
+.logo-title{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav-link{
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+/* players styles */
+.player-blog{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 250px;
+    padding: 33px 33px 42px 30px;
+}
+.top-player{
+    margin-bottom: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+/* blogs styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    padding-right: 58px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   
+}
+.blog img{
+    height: 117px;
+}
+.blog-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.blog-author a{
+    color: #562EFF;
+}
+
+/* course styles */
